@@ -16,6 +16,19 @@
 \pointpoints{punto}{puntos}
 \renewcommand{\solutiontitle}{\textbf{Solución: }}
 
+
+\newcommand{\makenonemptybox}[2]{%
+  \par\nobreak\vspace{\ht\strutbox}\noindent
+  \fbox{%
+    \parbox[c][\dimexpr#1-2\fboxsep][t]{\dimexpr\linewidth-2\fboxsep}{
+      \hrule width \hsize height 0pt
+      #2
+    }%
+  }%
+  \par\vspace{\ht\strutbox}
+}
+\makeatother
+
 \printanswers
 
 \begin{document}
@@ -41,12 +54,14 @@ Grupo:\enspace\hrulefill
 \input{p/p02t1}
 \input{p/p03t1}
 \input{p/p04t1}
-\input{p/p07t1}
 \input{p/p08t1}
 \input{p/p11t1}
 \input{p/p12t1}
+\input{p/p16t1}
 \input{p/p13t1}
 \input{p/p14t1}
+\input{p/p15t1}
+\input{p/p17t1}
 
 \end{questions}
 
