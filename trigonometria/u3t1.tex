@@ -1,0 +1,57 @@
+% ex: ts=2 sw=2 sts=2 et filetype=tex
+% SPDX-License-Identifier: CC-BY-SA-4.0
+
+\documentclass[12pt,addpoints]{exam}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage[letterpaper]{geometry}
+\usepackage{pgfplots}
+
+\pagestyle{headandfoot}
+\headrule
+\header{Cálculo Diferencial}{Examen}{CBTIS 246}
+\footer{}{Página \thepage\ de \numpages}{}
+
+\pointpoints{punto}{puntos}
+\renewcommand{\solutiontitle}{\textbf{Solución: }}
+
+\printanswers
+
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+\begin{center}
+\fbox{\fbox{\parbox{5.5in}{\centering
+Lee con atención cada pregunta y responde en
+el espacio ubicado en la parte izquierda.
+}}}
+\end{center}
+
+\vspace{5mm}
+
+Nombre:\enspace\hrulefill
+
+\vspace{5mm}
+
+Grupo:\enspace\hrulefill
+\enspace{}Grado:\enspace\hrulefill
+\enspace{}Fecha:\enspace\hrulefill
+
+\begin{questions}
+
+\question bla bla
+
+\begin{tikzpicture}[domain=0:4]
+  \draw[dotted] (0,0) grid (3,2);
+  \draw[->] (0,0) -- (1,0);
+  
+  %\draw[very thin,color=gray] (-0.1,-1.1) grid (3.9,3.9);
+  %\draw[->] (-0.2,0) -- (4.2,0) node[right] x;
+  %\draw[->] (0,-1.2) -- (0,4.2) node[above] {$f(x)$};
+\end{tikzpicture}
+
+\end{questions}
+
+\end{document}
