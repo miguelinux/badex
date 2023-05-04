@@ -8,6 +8,7 @@
 %\usepackage[spanish]{babel}
 \usepackage[letterpaper]{geometry}
 \usepackage{pgfplots}
+\usepackage{xcolor}
 
 \pagestyle{headandfoot}
 \headrule
@@ -42,10 +43,27 @@ Grupo:\enspace\hrulefill
 
 \begin{questions}
 
-\question bla bla
+\question Utiliza la tabla en el segundo y tercer renglón y escribe los
+  resultados de la función $f(x) = sen(x)$ y $f(x) = cos(x)$ respectivamente.
+
+  \textbf{Nota:} Recuerda de poner tu calculadora en \textbf{radianes}.
+
+  \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+    \hline & 0 & $\frac{\pi}{6}$  & $\frac{\pi}{3}$  & $\frac{\pi}{2}$ & $\frac{2\pi}{3}$%
+               & $\frac{5\pi}{6}$ & $ \pi $  & $\frac{7\pi}{6}$ & $\frac{4\pi}{3}$%
+               & $\frac{3\pi}{2}$  & $\frac{5\pi}{3}$ & $\frac{11\pi}{6}$ & $2\pi$ \\
+    \hline $sen(x)$ & \hspace{7mm} & \hspace{7mm} & \hspace{7mm}
+           & \hspace{7mm} & \hspace{7mm} & \hspace{7mm} & \hspace{7mm}
+           & \hspace{7mm} & \hspace{7mm} & \hspace{7mm} & \hspace{7mm}
+           & \hspace{7mm} & \hspace{7mm} \\
+    \hline $cos(x)$ & \hspace{7mm} & \hspace{7mm} & \hspace{7mm}
+           & \hspace{7mm} & \hspace{7mm} & \hspace{7mm} & \hspace{7mm}
+           & \hspace{7mm} & \hspace{7mm} & \hspace{7mm} & \hspace{7mm}
+           & \hspace{7mm} & \hspace{7mm} \\ \hline
+  \end{tabular}
 
 \begin{tikzpicture}[domain=0:13]
-  \draw[dotted,color=gray] (-0.3,-4) grid (13,4);
+  \draw[dotted] (-0.3,-4) grid (13,4);
 
   \draw[->] (0,0) --  (13,0) node[right] {$x$};
   \draw[->] (0,-4) -- (0,4) node[above] {$f(x)$};
@@ -72,12 +90,27 @@ Grupo:\enspace\hrulefill
   
 \end{tikzpicture}
 
-\question bla bla
+\clearpage
+
+\question Utiliza la tabla en el segundo renglón y escribe los
+  resultados de la función $f(x) = tan(x)$.
+
+  \textbf{Nota:} Recuerda de poner tu calculadora en \textbf{radianes}.
+
+  \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+    \hline & 0 & $\frac{\pi}{6}$  & $\frac{\pi}{3}$  & $\frac{\pi}{2}$ & $\frac{2\pi}{3}$%
+               & $\frac{5\pi}{6}$ & $ \pi $  & $\frac{7\pi}{6}$ & $\frac{4\pi}{3}$%
+               & $\frac{3\pi}{2}$  & $\frac{5\pi}{3}$ & $\frac{11\pi}{6}$ & $2\pi$ \\
+    \hline $tan(x)$ & \hspace{7mm} & \hspace{7mm} & \hspace{7mm}
+           & \hspace{7mm} & \hspace{7mm} & \hspace{7mm} & \hspace{7mm}
+           & \hspace{7mm} & \hspace{7mm} & \hspace{7mm} & \hspace{7mm}
+           & \hspace{7mm} & \hspace{7mm} \\ \hline
+  \end{tabular}
 
 \begin{tikzpicture}
-  \draw[dotted,color=gray] (-0.3,-7) grid (5,7);
+  \draw[dotted] (-0.3,-7) grid (5,7);
 
-  \draw[->] (0,0) --  (5,0) node[right] {$x$};
+  \draw[->] (0,0) --  (6,0) node[right] {$x$};
   \draw[->] (0,-7) -- (0,7) node[above] {$f(x)$};
 
   \path (0.2,-0.2) node[] {0};
@@ -87,14 +120,20 @@ Grupo:\enspace\hrulefill
   \path (4.2,-0.2) node[] {4};
   \path (5.2,-0.2) node[] {5};
 
-  \path (-0.7,-4) node[] {-1};
-  \path (-0.7,-3) node[] {-0.75};
-  \path (-0.7,-2) node[] {-0.50};
-  \path (-0.7,-1) node[] {-0.25};
-  \path (-0.7,1) node[] {0.25};
-  \path (-0.7,2) node[] {0.50};
-  \path (-0.7,3) node[] {0.75};
-  \path (-0.7,4) node[] {1};
+  \path (-0.7,-7) node {-7};
+  \path (-0.7,-6) node {-6};
+  \path (-0.7,-5) node {-5};
+  \path (-0.7,-4) node {-4};
+  \path (-0.7,-3) node {-3};
+  \path (-0.7,-2) node {-2};
+  \path (-0.7,-1) node {-1};
+  \path (-0.7,1) node {1};
+  \path (-0.7,2) node {2};
+  \path (-0.7,3) node {3};
+  \path (-0.7,4) node {4};
+  \path (-0.7,5) node {5};
+  \path (-0.7,6) node {6};
+  \path (-0.7,7) node {7};
 
   \draw[color=red] plot[id=tan1, domain=0:1.43] function{tan(x)};
   \draw[color=red] plot[id=tan2, domain=1.71:4.57] function{tan(x)} node[right] {$f(x) = \tan x$};
