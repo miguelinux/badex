@@ -1,0 +1,20 @@
+% ex: ts=2 sw=2 sts=2 et filetype=tex
+% SPDX-License-Identifier: CC-BY-SA-4.0
+
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{pgfplots}
+
+\begin{document}
+  \begin{tikzpicture}
+    \begin{axis}[domain=0:1,legend pos=outer north east]
+    \addplot {sin(deg(x))}; 
+    \addplot {cos(deg(x))}; 
+    \addplot {x^2};
+    \legend{$\sin(x)$,$\cos(x)$,$x^2$}
+    \end{axis}
+  \end{tikzpicture}
+\end{document}
