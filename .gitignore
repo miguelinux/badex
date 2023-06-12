@@ -1,3 +1,6 @@
+*.gnuplot
+*.table
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
