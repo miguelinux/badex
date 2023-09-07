@@ -9,6 +9,7 @@
 \usepackage{graphicx}
 \usepackage{xcolor}
 %\usepackage[spanish]{babel}
+\usepackage{multicol}
 
 \definecolor{itesoprofundo}{RGB}{000, 066, 112}
 \definecolor{itesomedio}{RGB}{112, 144, 183}
@@ -23,6 +24,7 @@
 
 \pointpoints{punto}{puntos}
 \renewcommand{\solutiontitle}{\textbf{Solución: }}
+\renewcommand{\theenumi}{\alph{enumi})}
 
 %\printanswers
 
@@ -37,23 +39,48 @@ Nombre:~\makebox[4in]{\hrulefill}
 Puntos máximos: 100
 
 \begin{questions}
-
 \begin{EnvFullwidth}
   \sffamily\textbf{Sección I.- Completar los siguientes enunciados con las
   palabras situadas en la parte inferior de la sección. Valor: 10 puntos
   (1 punto c/u).}
 \end{EnvFullwidth}
 
-\input{p/teoria/e1/p01t0}
-\input{p/teoria/e1/p02t0}
-\input{p/teoria/e1/p03t0}
-\input{p/teoria/e1/p04t0}
-\input{p/teoria/e1/p05t0}
-\input{p/teoria/e1/p06t0}
-\input{p/teoria/e1/p07t0}
-\input{p/teoria/e1/p08t0}
-\input{p/teoria/e1/p09t0}
-\input{p/teoria/e1/p10t0}
+\input{p/teoria/e1/s1/p01t0}
+\input{p/teoria/e1/s1/p02t0}
+\input{p/teoria/e1/s1/p03t0}
+\input{p/teoria/e1/s1/p04t0}
+\input{p/teoria/e1/s1/p05t0}
+\input{p/teoria/e1/s1/p06t0}
+\input{p/teoria/e1/s1/p07t0}
+\input{p/teoria/e1/s1/p08t0}
+\input{p/teoria/e1/s1/p09t0}
+\input{p/teoria/e1/s1/p10t0}
+
+\input{p/teoria/e1/s1/lista-respuestas}
+\end{questions}
+
+\begin{questions}
+\begin{EnvFullwidth}
+  \sffamily\textbf{Sección II.- Evalúe las siguientes expresiones y
+  determine su resultado. Incluya el desarrollo. Valor 5 puntos (2.5 puntos
+  c/u)}
+\end{EnvFullwidth}
+
+\input{p/teoria/e1/s2/condiciones01}
+\input{p/teoria/e1/s2/p01t1}
+\input{p/teoria/e1/s2/p02t1}
+
+\end{questions}
+
+\begin{questions}
+\begin{EnvFullwidth}
+  \sffamily\textbf{Sección IV.- Resolver los siguientes problemas utilizando
+  instrucciones del lenguaje Python. Valor 45 puntos (15 puntos c/u).}
+\end{EnvFullwidth}
+
+\input{p/teoria/e1/s4/p01t0}
+\input{p/teoria/e1/s4/p02t0}
+\input{p/teoria/e1/s4/p03t0}
 
 \end{questions}
 
