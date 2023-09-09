@@ -1,4 +1,43 @@
 % ex: ts=2 sw=2 sts=2 et filetype=tex
 % SPDX-License-Identifier: CC-BY-SA-4.0
 
-\question 
+\question Calcular la ecuación de segundo grado $ax^2 + bx + c$, con sus dos
+          soluciones o raíces según aplique. Utilizando la fórmula general:
+
+\begin{displaymath}
+  x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\end{displaymath}
+
+Considerando que para que la ecuación tenga solución es preciso que el
+\textbf{discriminante} sea mayor o igual que cero. El discriminante de una
+ecuación de segundo grado es: $d = b^2 - 4ac$, por lo tanto si $d=0$ se
+obtienen dos raíces iguales $x_1 = x_2$ y se dice que la ecuación tiene una
+solución, si $d >0$ se calculan las dos raices $x1$ y $x2$, y se dice que la
+ecuación tiene dos soluciones, y si $d<0$ entonces la ecuación no tiene
+solución.
+
+\textbf{Entrada}
+
+Valor del coeficiente $a$. \\
+Valor del coeficiente $b$. \\
+Valor del coeficiente $c$. \\
+
+\textbf{Salida}
+
+El mensaje indicando si la ecuación tiene \textbf{cero}, \textbf{una} o
+\textbf{dos} soluciones.
+
+\begin{center}
+  \begin{tabular}{|c|c|c|c|}
+     \hline
+     \rowcolor[HTML]{C0C0C0}
+             & Ejemplo 1 & Ejemplo 2 & Ejemplo 3 \\
+     \hline
+     Entrada & 1   &  1  &  1 \\
+             & 0   &  -4  & 1 \\
+             & 1   &  4  & -2 \\
+     \hline
+     Salida  & No tiene solución & Una solución & Dos soluciones \\
+     \hline
+  \end{tabular}
+\end{center}
