@@ -1,0 +1,47 @@
+% ex: ts=2 sw=2 sts=2 et filetype=tex
+% SPDX-License-Identifier: CC-BY-SA-4.0
+
+\question Suma de matrices. La suma de dos matrices (A + B) requiere que
+          ambas matrices tengan la misma dimensión. La matriz resultante (C)
+          también será de la misma dimensión. Ejemplo:
+
+\begin{displaymath}
+  A = 
+  \begin{pmatrix}
+    2 & 0 & 1 \\
+    3 & 0 & 0 \\
+    5 & 1 & 1
+  \end{pmatrix},
+  B=
+  \begin{pmatrix}
+    1 & 0 & 1 \\
+    1 & 2 & 1 \\
+    1 & 1 & 0
+  \end{pmatrix},
+  A + B =
+  \begin{pmatrix}
+    2+1 & 0+0 & 1+1 \\
+    3+1 & 0+2 & 0+1 \\
+    5+1 & 1+1 & 1+0
+  \end{pmatrix}=
+  \begin{pmatrix}
+    3 & 0 & 2 \\
+    4 & 2 & 1 \\
+    6 & 2 & 1
+  \end{pmatrix}
+\end{displaymath}
+
+\textbf{Entrada}
+
+Dos matrices cuadradas A y B de orden n. Los datos de las matrices a sumar A
++ B serán asignados de forma aleatoria en un rango de 0 a 10.
+
+\textbf{Salida}
+
+\begin{enumerate}
+  \item Matriz resultante C.
+  \item Número mayor de todos los elementos de la matriz resultante.
+  \item Número menor de todos los elementos de la matriz resultante.
+  \item Elementos de la Diagonal Principal de la matriz resultante.
+  \item Elementos de la Diagonal Secundaria de la matriz resultante.
+\end{enumerate}
