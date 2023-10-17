@@ -1,0 +1,14 @@
+% ex: ts=2 sw=2 sts=2 et filetype=tex
+% SPDX-License-Identifier: CC-BY-SA-4.0
+
+\question 
+\begin{lstlisting}[language=Python]
+valor = "111"
+contador = 0
+suma = 0
+while contador < len(valor):
+  if valor[len(valor) - 1 - contador] == "1":
+    suma = suma + 2 ** contador
+  contador = contador + 1
+print(suma)
+\end{lstlisting}
