@@ -1,0 +1,105 @@
+% ex: ts=2 sw=2 sts=2 et filetype=tex
+% SPDX-License-Identifier: CC-BY-SA-4.0
+
+\documentclass[10pt,addpoints]{exam}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[letterpaper]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+%\usepackage[spanish]{babel}
+\usepackage{multicol}
+
+\usepackage{tikz}
+\newcommand{\pythagwidth}{3cm}
+\newcommand{\pythagheight}{2cm}
+
+\definecolor{itesoprofundo}{RGB}{000, 066, 112}
+\definecolor{itesomedio}{RGB}{112, 144, 183}
+\definecolor{itesoclaro}{RGB}{151, 227, 255}
+
+\pagestyle{headandfoot}
+%\headrule
+\lhead{\includegraphics[scale=0.5]{img/logo.png}}
+\rhead{\color{itesoprofundo}\textbf{DISEÑO DE ALGORITMOS}\\Departamento
+       de Electrónica, Sistemas e Informática\\}
+\lfoot{Nombre:~\makebox[4.5in]{\hrulefill} }
+\cfoot{}
+\rfoot{Página \thepage\ de \numpages}
+
+\pointpoints{punto}{puntos}
+\renewcommand{\solutiontitle}{\textbf{Solución: }}
+\renewcommand{\theenumi}{\alph{enumi})}
+
+%\printanswers
+
+\begin{document}
+\begin{center}
+  \sffamily\textbf{EXAMEN I}
+\end{center}
+\begin{flushright}
+14 de febrero de 2024
+\end{flushright}
+
+\begin{questions}
+\begin{EnvFullwidth}
+  \sffamily\textbf{Sección I.- Completar los siguientes enunciados con las
+  palabras situadas en la parte inferior de la sección. Valor: 30 puntos
+  (3 punto c/u).}
+\end{EnvFullwidth}
+
+\input{p/t/e1/s1/p08t0}
+\input{p/t/e1/s1/p06t0}
+\input{p/t/e1/s1/p10t0}
+\input{p/t/e1/s1/p04t0}
+\input{p/t/e1/s1/p02t0}
+\input{p/t/e1/s1/p07t0}
+\input{p/t/e1/s1/p03t0}
+\input{p/t/e1/s1/p01t0}
+\input{p/t/e1/s1/p05t0}
+\input{p/t/e1/s1/p09t0}
+
+\input{p/t/e1/s1/lista-respuestas}
+\end{questions}
+
+\begin{questions}
+\begin{EnvFullwidth}
+  \sffamily\textbf{Sección II.- Evalúe las siguientes expresiones y
+  determine su resultado. Incluya el desarrollo. Valor 10 puntos (5 puntos
+  c/u)}
+\end{EnvFullwidth}
+
+\input{p/t/e1/s2/condiciones01}
+\input{p/t/e1/s2/p02t1}
+\input{p/t/e1/s2/p01t1}
+
+\end{questions}
+
+\newpage
+
+\begin{questions}
+\begin{EnvFullwidth}
+  \sffamily\textbf{Sección III.- Escribir un algoritmo en su
+  representación en diagrama de flujo. Valor 20 puntos.}
+\end{EnvFullwidth}
+
+\input{p/a/e1/p01t0}
+%\input{p/a/e1/p02t0}
+%\input{p/a/e1/p03t0}
+
+\end{questions}
+
+\begin{questions}
+\begin{EnvFullwidth}
+  \sffamily\textbf{Sección IV.- Resolver los siguientes problemas utilizando
+  instrucciones del lenguaje Python. Valor 40 puntos (20 puntos c/u).}
+\end{EnvFullwidth}
+
+\input{p/p/e1/p02t0}
+\input{p/p/e1/p01t0}
+%\input{p/p/e1/p03t0}
+
+\end{questions}
+
+\end{document}
