@@ -1,0 +1,108 @@
+% ex: ts=2 sw=2 sts=2 et filetype=tex
+% SPDX-License-Identifier: CC-BY-SA-4.0
+
+\documentclass[10pt,addpoints]{exam}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[letterpaper]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+%\usepackage[spanish]{babel}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{listings}
+
+\usepackage{tikz}
+\newcommand{\pythagwidth}{3cm}
+\newcommand{\pythagheight}{2cm}
+
+\definecolor{itesoprofundo}{RGB}{000, 066, 112}
+\definecolor{itesomedio}{RGB}{112, 144, 183}
+\definecolor{itesoclaro}{RGB}{151, 227, 255}
+
+\pagestyle{headandfoot}
+%\headrule
+\lhead{\includegraphics[scale=0.5]{img/logo.png}}
+\rhead{\color{itesoprofundo}\textbf{ALGORITMOS Y PROGRAMACIÓN}\\Departamento
+       de Electrónica, Sistemas e Informática\\}
+\lfoot{Nombre:~\makebox[4.5in]{\hrulefill} }
+\cfoot{}
+\rfoot{Página \thepage\ de \numpages}
+
+\pointpoints{punto}{puntos}
+\renewcommand{\solutiontitle}{\textbf{Solución: }}
+\renewcommand{\theenumi}{\alph{enumi})}
+
+\newcommand{\tf}[1][{}]{%
+  \fillin[#1][0.25in]%
+}
+
+%\printanswers
+
+\begin{document}
+\begin{center}
+  \sffamily\textbf{EXAMEN II}
+\end{center}
+\begin{flushright}
+19 de marzo de 2024
+\end{flushright}
+
+\begin{questions}
+\begin{EnvFullwidth}
+  \sffamily\textbf{Sección I.- Completar los siguientes enunciados con las
+  palabras situadas en la parte inferior de la sección. Valor: 20 puntos
+  (4 punto c/u).}
+\end{EnvFullwidth}
+
+\input{p/t/e2/s1/p01t0}
+\input{p/t/e2/s1/p02t0}
+\input{p/t/e2/s1/p03t0}
+\input{p/t/e2/s1/p04t0}
+\input{p/t/e2/s1/p05t0}
+
+\input{p/t/e2/s1/lista-respuestas}
+\end{questions}
+
+\begin{questions}
+\begin{EnvFullwidth}
+  \sffamily\textbf{Sección II.- Responder las siguientes afirmaciones con
+  Falso (F) o Verdadero (V) según corres\-ponda. Valor 20 puntos (4 puntos c/u)}
+\end{EnvFullwidth}
+
+\input{p/t/e2/s2/p01t0}
+\input{p/t/e2/s2/p02t0}
+\input{p/t/e2/s2/p03t0}
+\input{p/t/e2/s2/p04t0}
+\input{p/t/e2/s2/p05t0}
+
+\end{questions}
+
+%\newpage
+
+%\begin{questions}
+%\begin{EnvFullwidth}
+%  \sffamily\textbf{Sección III.- Analizar las instrucciones y determinar
+%  cual es el valor de salida que se obtiene al ejecutar cada uno de los
+%  códigos siguientes (valor 10 puntos c/u). Incluir las corridas de
+%  escritorio de las variables implicadas.
+%  }
+%\end{EnvFullwidth}
+%
+%\input{p/a/e2/p01t0}
+%\input{p/a/e2/p02t0}
+%\end{questions}
+
+\begin{questions}
+\begin{EnvFullwidth}
+  \sffamily\textbf{Sección III.- Resolver los siguientes problemas utilizando
+  instrucciones del lenguaje Python. Valor 60 puntos (20 puntos c/u).}
+\end{EnvFullwidth}
+
+\input{p/p/e2/p01t0}
+\input{p/p/e2/p02t0}
+\input{p/p/e2/p03t0}
+
+\end{questions}
+
+\end{document}
