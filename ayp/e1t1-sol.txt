@@ -1,0 +1,20 @@
+Sección I.
+1.❌✔️ e) Pseudocódigo
+2.❌✔️ g) Ordenado
+3.❌✔️ o) Lenguaje de programación
+4.❌✔️ a) Variable
+5.❌✔️ n) Orientado a objetos
+6.❌✔️ f) Intérprete
+7.❌✔️ c) Lógico / Booleano
+8.❌✔️ i) type()
+9.❌✔️ b) Precedencia
+10.❌✔️ j) Sangría
+Sección II.
+1.❌✔️ 9.0
+2.❌✔️ -2.5
+Sección III.
+1.❌✔️
+Sección IV.
+1.❌✔️
+2.❌✔️
+
