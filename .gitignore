@@ -1,5 +1,6 @@
 *.gnuplot
 *.table
+*.autosave.xopp
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
