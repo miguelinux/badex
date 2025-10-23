@@ -1,0 +1,30 @@
+% ex: ts=2 sw=2 sts=2 et filetype=tex
+% SPDX-License-Identifier: CC-BY-SA-4.0
+
+%\textbf{Litros de gasolina y distancia recorrida}. 
+\question Un auto consume
+          1 litro de gasolina y recorre 11.5 km. El total de kilómetros
+          recorridos es proporcional a la cantidad de litros utilizados.
+
+\textbf{Tabla de valores}
+
+\begin{multicols}{2}
+\begin{center}
+  \begin{tabular}{|c|c|}
+     \hline
+     \rowcolor[HTML]{C0C0C0}
+         Gasolina (litros) & Distancia (km) \\
+     \hline 0 &  \\
+     \hline 1 &  \\
+     \hline 2 &  \\
+     \hline 3 &  \\
+     \hline
+  \end{tabular}
+\end{center}
+
+\begin{tikzpicture}
+  \coordinate (O) at (0,0);
+  \draw[->] (-0.3,0) -- (3,0) coordinate[label = {below:$x$}] (xmax);
+  \draw[->] (0,-0.3) -- (0,3) coordinate[label = {right:$y$}] (ymax);
+\end{tikzpicture}
+\end{multicols}

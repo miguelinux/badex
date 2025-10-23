@@ -1,0 +1,47 @@
+% ex: ts=2 sw=2 sts=2 et filetype=tex
+% SPDX-License-Identifier: CC-BY-SA-4.0
+
+%\textbf{Costo del transporte público}. 
+\question En una localidad, el costo
+          de transporte público es proporcional a la cantidad de viajes que
+          realizas. Si un solo viaje cuenta \$ 8.50 responde:
+
+% Usa letras minúsculas en lugar de números
+\renewcommand{\labelenumi}{\alph{enumi})}
+\begin{enumerate}
+  \item ¿Cuánto pagarías por 6 vieajes? \fillin[51]
+  \item ¿Y si tomaras 10 vieajes? \fillin[85]
+  \item Expresa esta relación en forma de ecuación (considera que \textbf{x}
+        representa el número de viajes y \textbf{y} el costo total a
+        pagar). \fillin[$y = 8.5x$]
+  \item completa la tabla y grafica la relación que hay entre el número
+        de viajes y el costo.
+
+\begin{multicols}{2}
+\begin{center}
+  \begin{tabular}{|c|c|}
+     \hline
+     \rowcolor[HTML]{C0C0C0}
+         Viajes & Costo \\
+     \hline 0 &  \\
+     \hline 1 &  \\
+     \hline 2 &  \\
+     \hline 3 &  \\
+     \hline 4 &  \\
+     \hline 5 &  \\
+     \hline
+  \end{tabular}
+\end{center}
+
+\begin{tikzpicture}
+  \coordinate (O) at (0,0);
+  \draw[->] (-0.3,0) -- (3,0) coordinate[label = {below:$x$}] (xmax);
+  \draw[->] (0,-0.3) -- (0,3) coordinate[label = {right:$y$}] (ymax);
+
+\end{tikzpicture}
+\end{multicols}
+
+
+  \item ¿En qué punto la recta se intersecta con el eje \textbf{Y}?
+        \fillin[(0,0)]
+\end{enumerate}
